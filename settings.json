@@ -1,0 +1,110 @@
+// settings.json is a file that contains all your settings for VS Code.
+{
+  "window.zoomLevel": 0, // Manage zoom level
+  "workbench.startupEditor": "none", // We don't want to open a file on startup
+  "workbench.tree.indent": 15, // We want to indent the tree
+  "workbench.tree.renderIndentGuides": "always", // We want to render indent guides
+  "editor.occurrencesHighlight": false, // We don't want to highlight occurrences
+  "editor.renderWhitespace": "trailing", // We want to render trailing whitespaces
+  "editor.autoClosingBrackets": "always", // We want to auto close brackets
+  "editor.autoClosingQuotes": "always", // We want to auto close quotes
+  "workbench.colorTheme": "Default Dark+", // We want to use the default dark theme
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', 'Operator Mono Lig', monospace", // We want to use the JetBrains Mono font
+  "editor.fontLigatures": true, // We want to use ligatures
+  "editor.fontSize": 16, // We want to use a font size of 16
+  "editor.lineHeight": 28, // We want to use a line height of 28
+  "editor.wordWrap": "on", // We want to wrap words
+  "editor.suggest.insertMode": "replace", // We want to replace the word when we select a suggestion
+  "editor.acceptSuggestionOnCommitCharacter": false, // We don't want to accept a suggestion on commit character
+  "editor.formatOnSave": true, // We want to format on save
+  "editor.formatOnPaste": true, // We want to format on paste
+  "editor.linkedEditing": true, // We want to enable linked editing
+  "explorer.autoReveal": false, // We don't want to auto reveal
+  "explorer.confirmDragAndDrop": false, // We don't want to confirm drag and drop
+  "workbench.editor.enablePreview": false, // We don't want to enable preview
+  "emmet.triggerExpansionOnTab": true, // We want to trigger expansion on tab
+  "files.autoSave": "onFocusChange", // We want to auto save on focus change
+  "files.defaultLanguage": "markdown", // We want to use markdown as default language
+  "files.exclude": {
+    "**/.idea": true // We don't want to show .idea files
+  },
+  "javascript.preferences.importModuleSpecifierEnding": "js", // We want to use js as import module specifier ending
+  "typescript.preferences.importModuleSpecifierEnding": "js", // We want to use js as import module specifier ending
+  // Extensions
+  "liveServer.settings.donotVerifyTags": true, // We don't want to verify tags
+  "gitlens.codeLens.enabled": false, // We don't want to enable gitlens code lens
+  "gitlens.currentLine.enabled": false, // We don't want to enable gitlens current line
+  "editor.unicodeHighlight.nonBasicASCII": false, // We don't want to highlight non basic ASCII
+  "emmet.includeLanguages": {
+    "twig": "html" // We want to include twig in html
+  },
+  "liveServer.settings.donotShowInfoMsg": true, // We don't want to show info messages
+  // Terminal integrated profiles
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell", // We want to use PowerShell as default profile
+  "remote.SSH.remotePlatform": {
+    // here we define the remote platform for each host
+    "199.97.511.99": "linux"
+  },
+  "diffEditor.ignoreTrimWhitespace": false, // We don't want to ignore trim whitespace
+  "intelephense.environment.phpVersion": "8.1.0", // We want to use PHP 8.1.0
+  "workbench.editorAssociations": {
+    "*.png": "luna.editor" // We want to use luna editor for png files
+  },
+  "git.terminalAuthentication": false, // We don't want to use terminal authentication
+  "github.gitAuthentication": false, // We don't want to use git authentication
+  "editor.tabSize": 2, // We want to use a tab size of 2
+  "editor.inlineSuggest.enabled": true, // We want to enable inline suggest
+  "git.autofetch": true, // We want to enable auto fetch
+  "editor.largeFileOptimizations": false, // We don't want to enable large file optimizations
+  "editor.cursorWidth": 2, // We want to use a cursor width of 2
+  "terminal.integrated.cursorWidth": 2, // We want to use a cursor width of 2
+  // Formatters
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[twig]": {
+    "editor.defaultFormatter": "mblode.twig-language-2"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode" // We want to use prettier as default formatter
+}
