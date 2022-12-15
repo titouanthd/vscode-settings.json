@@ -16,8 +16,8 @@
   "editor.wordWrap": "on", // We want to wrap words
   "editor.suggest.insertMode": "replace", // We want to replace the word when we select a suggestion
   "editor.acceptSuggestionOnCommitCharacter": false, // We don't want to accept a suggestion on commit character
-  "editor.formatOnSave": false, // We want to format on save
-  "editor.formatOnPaste": false, // We want to format on paste
+  "editor.formatOnSave": false, // We don't want to format on save
+  "editor.formatOnPaste": false, // We don't want to format on paste
   "editor.linkedEditing": true, // We want to enable linked editing
   "explorer.autoReveal": false, // We don't want to auto reveal
   "explorer.confirmDragAndDrop": false, // We don't want to confirm drag and drop
